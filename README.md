@@ -20,8 +20,10 @@ Haven't tested
 
 # External-Adjustments
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
-A means of modifying upscaling in deadlock. From minor testing I was able to force framegen (I think) but I have no idea how I did it 
+
+A means of modifying upscaling in deadlock. From minor testing I believe I am able to force framegen although the game seems to need to ran under vulkan to it to work.
 - [DXVK](https://github.com/doitsujin/dxvk)
+
 This might help with windows users on older gpus as in some games there have been reported fps improvements from using dxvk, plus as I understand it the version of vulkan used by deadlock is out of date (not entirely sure though, although on my linux rig dx11 performs better)
 
 # Todo 
