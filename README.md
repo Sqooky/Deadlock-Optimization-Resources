@@ -5,11 +5,11 @@ Please contribute as I am not all knowing
 --------------------------------------
 
 # Contents
-- [Ingame Config Adjustments](#Ingame Config Adjustments)
-- [External Adjustments](#External Adjustments)
+- [Ingame Config Adjustments](#Ingame-Config-Adjustments)
+- [External Adjustments](#External-Adjustments)
 - [Todo](#Todo)
 
- #Ingame_Config_Adjustments
+ # Ingame-Config-Adjustments
 - [Dyson's Fps Config](https://gamebanana.com/mods/616141)
 Worked well for me although does cause trooper gibs to be odd by default. It also is documented in Russian so that might be a bit confusing for tweaking values
 - [Hanturaya's Fps Config](https://gamebanana.com/mods/609804)
@@ -18,7 +18,7 @@ Haven't tested
 Haven't tested
 
 
-# External Adjustments
+# External-Adjustments
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
 A means of modifying upscaling in deadlock. From minor testing I was able to force framegen (I think) but I have no idea how I did it 
 - [DXVK](https://github.com/doitsujin/dxvk)
