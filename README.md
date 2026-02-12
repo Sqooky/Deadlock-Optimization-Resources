@@ -18,7 +18,7 @@ Worked well for me although does cause trooper gibs to be odd by default. It als
 Haven't tested
 - [Maidehnless' Optimizationlock Config](https://gamebanana.com/mods/650519)
 
-It is a modified version of the dyson config with additional convars and also documented in english
+Maidehnless' config is a modified version of the dyson config with additional convars and is documented in english. Currently it works the best for my usecase, and as such is the one I would recommend. This repository hosts a presently up to date patched gameinfo.gi with an additional version with mod support.
 
 
 # External-Adjustments
