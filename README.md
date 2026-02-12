@@ -1,3 +1,8 @@
+# IF YOU HAVE ANY QUESTIONS OR DESIRE TO MAKE A CONTRIBUTION, MY CONTACTS ARE AS FOLLOWS.
+Email:      sqookymrsmiku@proton.me
+Discord:    \_bluster\_
+Steam:      https://steamcommunity.com/id/happylilsqooky/
+
 
 # Deadlock-Optimization-Resources
 This Repository seeks to act similar to an [awesome-list](https://github.com/sindresorhus/awesome) where it is a list of resource and documentation on how to utilize and apply them
