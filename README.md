@@ -15,16 +15,12 @@ Please contribute as I am not all knowing
 - [Todo](#Todo)
 
  # Ingame-Config-Adjustments
-- [Dyson's Fps Config](https://gamebanana.com/mods/616141)
-
-Worked well for me although does cause trooper gibs to be odd by default. It also is documented in Russian so that might be a bit confusing for tweaking values.
 - [Hanturaya's Fps Config](https://gamebanana.com/mods/609804)
 
 Haven't tested
 - [Maidehnless' Optimizationlock Config](https://gamebanana.com/mods/650519)
 
-Maidehnless' config is a modified version of the dyson config with additional convars and is documented in english. Currently it works the best for my usecase, and as such is the one I would recommend. This repository hosts a presently up to date patched gameinfo.gi with an additional version with mod support.
-
+Maidehnless' config is very well documented and provides sensible defaults. I would recommend it.
 
 # External-Adjustments
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
