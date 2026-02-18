@@ -1,6 +1,11 @@
-# IF YOU HAVE ANY QUESTIONS OR DESIRE TO MAKE A CONTRIBUTION, MY CONTACTS ARE AS FOLLOWS.
+## IF YOU HAVE ANY QUESTIONS OR DESIRE TO MAKE A CONTRIBUTION, MY CONTACTS ARE AS FOLLOWS.
+
+No Generative AI was used in the making of this
+
 Email:      sqookymrsmiku@proton.me
+
 Discord:    \_bluster\_
+
 Steam:      https://steamcommunity.com/id/happylilsqooky/
 
 
