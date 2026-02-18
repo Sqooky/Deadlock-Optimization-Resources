@@ -36,14 +36,35 @@ DXVK seems to increase frame stability for older gpus and AMD gpus. It might req
 You should utilize a tool such as [cpupower]() or [gamemoderun]() to ensure your cpu is set to performance mode.
 ## Gpu
 ### AMD GPUs
-Make sure your MESA drivers are up to date. You can use software such as [LACT]() or [CoreCTRL]() to make sure your GPU's performance governor is set properly
+Make sure your MESA drivers are up to date. You can use software such as [LACT](https://github.com/ilya-zlobintsev/LACT) or [CoreCTRL](https://gitlab.com/corectrl/corectrl) to make sure your GPU's performance governor is set properly
 ### Nvidia GPUs
 Lol, Lmao
-- Make sure you're using an x11 based window manager/desktop enviornment. As far as I'm aware nvidia gpus still perform worse under wayland
+- Make sure you're using an x11 based window manager/desktop enviornment. As far as I'm aware nvidia gpus still perform marginally worse under wayland
 ## OS
 ### Desktop Enviornment
 Some desktop enviornments are more performance heavy than others. You can consider using a standalone wm if you're desperate for performance
 ### Kernel
+There are various performance oriented kernels
+- [CachyOS' Kernel.](https://github.com/CachyOS/linux-cachyos) 
+
+Most notably using the BORE CPU scheduler with various other patches targeting performance.
+
+- [Liquorix](https://liquorix.net)
+
+I don't have much experience with Liquorix so I can't offer much insight but it seems to be actively developed
+
+- [Linux-Tachyon](https://git.staropensource.de/StarOpenSource/Linux-Tachyon)
+
+The isolated kernel from Intel's ClearLinux, it should provide a performance boost on Intel machines but I don't have the means to test it on an AMD CPU. Also obligatory Death Grips reference.
+
+- [Xanmod](https://xanmod.org)
+
+Seems to be a bit slow on development but was more popular in the past.
+
+- [TKG](https://github.com/Frogging-Family/linux-tkg)
+
+Seems to be pretty cool but I haven't monkeyed with it. Has very active development as well as customization options.
+
 ### Proton
 
 
