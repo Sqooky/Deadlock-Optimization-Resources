@@ -452,7 +452,7 @@
 	ConVars
 	{	 
 
-// ---------------- GAMEINFO CONFIG — DYSON EDITION - Maidehnless Translated -- ver. 1.3 ---------------
+// ---------------- GAMEINFO CONFIG Maidehnless ver. 1.3 ---------------
 // Check here for updates: https://gamebanana.com/mods/650519
 
 // =============== NOTE WORTHY SETTINGS ===============
