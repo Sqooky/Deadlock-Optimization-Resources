@@ -28,7 +28,24 @@ Maidehnless' config is very well documented and provides sensible defaults. I wo
 A means of modifying upscaling in deadlock. Optiscaler potentially allows for frame gen to be forced on nvidia gpus, but under linux it only presents the option when running under vulkan, and the debug menu for fg doesn't work. This leads me to believe that it isn't possible but your mileage may vary
 - [DXVK](https://github.com/doitsujin/dxvk)
 
-This might help with windows users on older gpus or amd gpus as in some games there have been reported fps improvements from using dxvk, plus as I understand it the version of vulkan used by deadlock is out of date (not entirely sure though, although on my linux rig dx11 performs better)
+DXVK seems to increase frame stability for older gpus and AMD gpus. It might require cacheing of shaders again.
+
+# Linux Specific Tweaks
+
+## Cpu
+You should utilize a tool such as [cpupower]() or [gamemoderun]() to ensure your cpu is set to performance mode.
+## Gpu
+### AMD GPUs
+Make sure your MESA drivers are up to date. You can use software such as [LACT]() or [CoreCTRL]() to make sure your GPU's performance governor is set properly
+### Nvidia GPUs
+Lol, Lmao
+- Make sure you're using an x11 based window manager/desktop enviornment. As far as I'm aware nvidia gpus still perform worse under wayland
+## OS
+### Desktop Enviornment
+Some desktop enviornments are more performance heavy than others. You can consider using a standalone wm if you're desperate for performance
+### Kernel
+### Proton
+
 
 # Todo 
 - Verify that optiscaler can consistently force frame generation and destribute a config for optiscaler that does so
