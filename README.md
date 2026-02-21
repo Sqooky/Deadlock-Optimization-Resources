@@ -77,34 +77,16 @@ Lol, Lmao
 ### OS
 #### Desktop Enviornment
 Some desktop enviornments are more performance heavy than others. You can consider using a standalone wm if you're desperate for performance. The ones I would recommend from personal experience are as follows:
-- [MangoWC](https://github.com/DreamMaoMao/mangowc)
-
-Runs under wayland, pretty versatile and well optimized
-- [i3](https://i3wm.org/)
-
-It's like driving a brick at two hundred miles an hour.
+- [MangoWC](https://github.com/DreamMaoMao/mangowc) Runs under wayland, pretty versatile and well optimized
+- [i3](https://i3wm.org/) It's like driving a brick at two hundred miles an hour.
 
 #### Kernel
 There are various performance oriented kernels
-- [CachyOS' Kernel.](https://github.com/CachyOS/linux-cachyos) 
-
-Most notably using the BORE CPU scheduler with various other patches targeting performance.
-
-- [Liquorix](https://liquorix.net)
-
-I don't have much experience with Liquorix so I can't offer much insight but it seems to be actively developed
-
-- [Linux-Tachyon](https://git.staropensource.de/StarOpenSource/Linux-Tachyon)
-
-The isolated kernel from Intel's ClearLinux, it should provide a performance boost on Intel machines but I don't have the means to test it on an AMD CPU. Also obligatory Death Grips reference.
-
-- [Xanmod](https://xanmod.org)
-
-Seems to be a bit slow on development but was more popular in the past.
-
-- [TKG](https://github.com/Frogging-Family/linux-tkg)
-
-Seems to be pretty cool but I haven't monkeyed with it. Has very active development as well as customization options.
+- [CachyOS' Kernel.](https://github.com/CachyOS/linux-cachyos) Most notably using the BORE CPU scheduler with various other patches targeting performance.
+- [Liquorix](https://liquorix.net)I don't have much experience with Liquorix so I can't offer much insight but it seems to be actively developed
+- [Linux-Tachyon](https://git.staropensource.de/StarOpenSource/Linux-Tachyon)The isolated kernel from Intel's ClearLinux, it should provide a performance boost on Intel machines but I don't have the means to test it on an AMD CPU. Also obligatory Death Grips reference.
+- [Xanmod](https://xanmod.org)Seems to be a bit slow on development but was more popular in the past.
+- [TKG](https://github.com/Frogging-Family/linux-tkg)Seems to be pretty cool but I haven't monkeyed with it. Has very active development as well as customization options.
 
 ### Proton
 Various versions of proton could yield a marginal performance boost.
