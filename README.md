@@ -60,12 +60,12 @@ There is a linux port of the frame gen avalible [here.](https://github.com/Panca
 ## Linux Specific
 ### Enviornment Variable Settings
 - ``DXVK_ASYNC=1`` Dxvk Async, allows for less rendering if something needs to be cached.
-- ``DXENABLE_LAYER_MESA_ANTI_LAG=1`` Experimental Mesa anti-lag layer
-- ``DXPROTON_FSR4_UPGRADE=1`` Makes newer GPUs use fsr4 in place of fsr3 (I think)
-- ``DXPROTON_FSR4_RDNA3_UPGRADE=1`` Makes older GPUs use FSR4 in place of FSR3
-- ``DXPROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. 
-- ``DXPROTON_NO_WM_DECORATION=1`` Disables window decoration, can help with window snapping.
-- ``DXMANGOHUD=1 Needs [Mangohud](https://github.com/flightlessmango/MangoHud), you already know what it is. Useful for checking performance stats.
+- ``ENABLE_LAYER_MESA_ANTI_LAG=1`` Experimental Mesa anti-lag layer
+- ``PROTON_FSR4_UPGRADE=1`` Makes newer GPUs use fsr4 in place of fsr3 (I think)
+- ``PROTON_FSR4_RDNA3_UPGRADE=1`` Makes older GPUs use FSR4 in place of FSR3
+- ``PROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. 
+- ``PROTON_NO_WM_DECORATION=1`` Disables window decoration, can help with window snapping.
+- ``MANGOHUD=1`` Needs [Mangohud](https://github.com/flightlessmango/MangoHud), you already know what it is. Useful for checking performance stats.
 ### Cpu
 You should utilize a tool such as [cpupower](https://linux.die.net/man/1/cpupower) or [gamemoderun](https://github.com/FeralInteractive/gamemode) to ensure your cpu is set to performance mode.
 ### Gpu
