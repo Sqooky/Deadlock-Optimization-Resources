@@ -35,9 +35,11 @@ Launch command is ``-dx11``. It seems to provide generally better fps stability 
 
 Launch command is ``-vulkan``. Seems to be marginally slower but supports fsr3
 
-# External-Adjustments
-## Os Independent
+**Windows Exclusive**
+- [DXVK](https://github.com/doitsujin/dxvk)
 
+DXVK seems to increase frame stability for older gpus and AMD gpus. It might require cacheing of shaders again. The two people who have tested it with windows on deadlock reported that it gave more stable frames when things got intense, but didn't directly increase overall framerate.
+# External-Adjustments
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
 
@@ -50,11 +52,8 @@ Lossless Scaling is a means of allowing external upscaling and frame generation.
 There is a linux port of the frame gen avalible [here.](https://github.com/PancakeTAS/lsfg-vk)
 
 ## Windows Specific
-- [DXVK](https://github.com/doitsujin/dxvk)
 
-DXVK seems to increase frame stability for older gpus and AMD gpus. It might require cacheing of shaders again. 
 
-The two people who have tested it with windows on deadlock reported that it gave more stable frames when things got intense, but didn't directly increase overall framerate.
 
 ## Linux Specific
 ### Cpu
