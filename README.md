@@ -18,13 +18,22 @@ Please contribute as I am not all knowing
 - [External Adjustments](#External-Adjustments)
 - [Todo](#Todo)
 
-# Ingame-Config-Adjustments
+# Ingame-Adjustments
+## gameinfo.gi Modifications
 - [Hanturaya's Fps Config](https://gamebanana.com/mods/609804)
 
 Haven't tested
 - [Maidehnless' Optimizationlock Config](https://github.com/Sqooky/OptimizationLock)
 
 Maidehnless' config is very well documented and provides sensible defaults. I am the current maintainer of the github repository, and given I find him a nice individual I would recommend it.
+## Launch Options
+### Rendering Backend
+- DirectX11
+
+Launch command is ``-dx11``. It seems to provide generally better fps stability but only supports fsr2.
+- Vulkan
+
+Launch command is ``-vulkan``. Seems to be marginally slower but supports fsr3
 
 # External-Adjustments
 ## Os Independent
