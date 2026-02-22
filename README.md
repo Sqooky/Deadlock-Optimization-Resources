@@ -1,10 +1,9 @@
 No Generative AI was used in the making of this
+To either request support or contribute findings to the project, our discord server can be found [here](https://discord.com/invite/AM7RRGBXet)
 ## IF YOU HAVE ANY QUESTIONS OR DESIRE TO MAKE A CONTRIBUTION, MY CONTACTS ARE AS FOLLOWS.
 
-Email:      sqookymrsmiku@proton.me
-
-Discord:    \_bluster\_
-
+Email:      sqookymrsmiku@proton.me  
+Discord:    \_bluster\_  
 Steam:      https://steamcommunity.com/id/happylilsqooky/
 
 
@@ -68,7 +67,7 @@ There is a linux port of the frame gen avalible [here.](https://github.com/Panca
 - ``ENABLE_LAYER_MESA_ANTI_LAG=1`` Experimental Mesa anti-lag layer
 - ``PROTON_FSR4_UPGRADE=1`` Makes newer GPUs use fsr4 in place of fsr3 (I think)
 - ``PROTON_FSR4_RDNA3_UPGRADE=1`` Makes older GPUs use FSR4 in place of FSR3
-- ``PROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. 
+- ``PROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. For me this causes jump to be spammed when holding space. Not sure if this is exclusive to me tho.
 - ``PROTON_NO_WM_DECORATION=1`` Disables window decoration, can help with window snapping.
 - ``MANGOHUD=1`` Needs [Mangohud](https://github.com/flightlessmango/MangoHud), you already know what it is. Useful for checking performance stats.
 ### Cpu
