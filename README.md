@@ -13,9 +13,29 @@ Please contribute as I am not all knowing
 --------------------------------------
 
 # Contents
+- [Event Tracing](#Event-Tracing)
 - [Ingame Config Adjustments](#Ingame-Config-Adjustments)
 - [External Adjustments](#External-Adjustments)
 - [Todo](#Todo)
+
+# Event Tracing
+
+Event tracing is a powerful way of profiling everything going on in your device. While this is a security risk, tracking down the cause of performance issues like stutters is trivial when tracing. The more that people trace the correct issues, the better the game becomes.
+
+## Windows Specific
+Valve recommends the player trace with Event Tracing for Windows (ETW). ETW-related apps suited for Deadlock are:
+- [PerfView](https://github.com/microsoft/perfview/releases); **the guide for using PerfView for Valve's games can be found [here](https://developer.valvesoftware.com/wiki/PerfView)**
+- [Windows Performance Analyzer](https://apps.microsoft.com/detail/9n0w1b2bxgnz)
+
+## Linux Specific
+Valve doesn't know which of the multiple Linux tracing tools is the best, so give one a try and see what works:
+- [Perf](https://perfwiki.github.io/main/)
+- [LTTng](https://lttng.org/)
+- [ftrace](https://www.kernel.org/doc/html/latest/trace/index.html)
+- [strace](https://strace.io/)
+- [Apitrace](https://apitrace.github.io/) (recommended for debugging DXVK)
+  
+Please download these from your package manager if you can!
 
 # Ingame-Adjustments
 ## gameinfo.gi Modifications
@@ -39,12 +59,11 @@ Maidehnless' config is very well documented and provides sensible defaults. I am
 Launch command is ``-dx11``. It seems to provide generally better fps stability but only supports fsr2.
 - Vulkan
 
-Launch command is ``-vulkan``. Seems to be marginally slower but supports fsr3
+Launch command is ``-vulkan``. Seems to be marginally slower but supports fsr3; this will likely be the only renderer in the future.
 
-**Windows Exclusive**
 - [DXVK](https://github.com/doitsujin/dxvk)
 
-DXVK seems to increase frame stability for older gpus and with newer AMD GPUs improves framerates. It might require cacheing of shaders again.
+DXVK seems to increase frame stability for older gpus and with newer AMD GPUs improves framerates. It might require cacheing of shaders again. It is automatically used when running in DX11 through Proton on Linux, but must be installed manually on Windows.
 # External-Adjustments
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
@@ -58,8 +77,7 @@ Lossless Scaling is a means of allowing external upscaling and frame generation.
 There is a linux port of the frame gen avalible [here.](https://github.com/PancakeTAS/lsfg-vk)
 
 ## Windows Specific
-
-
+- Use the latest driver if you can; there are potential fixes for your issues in those, although I understand that there are also risks.
 
 ## Linux Specific
 ### Enviornment Variable Settings
