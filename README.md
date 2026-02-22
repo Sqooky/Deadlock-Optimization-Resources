@@ -35,7 +35,6 @@ Maidehnless' config is very well documented and provides sensible defaults. I am
 - ``-threads x`` How many threads to use, replace x with whatever you want
 - ``-high`` Pretty sure this tells windows to give it higher priority.
 
-
 ### Rendering Backend
 - DirectX11
 
