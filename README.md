@@ -13,29 +13,11 @@ Please contribute as I am not all knowing
 --------------------------------------
 
 # Contents
-- [Event Tracing](#Event-Tracing)
+
 - [Ingame Config Adjustments](#Ingame-Config-Adjustments)
 - [External Adjustments](#External-Adjustments)
+- [Event Tracing](#Event-Tracing)
 - [Todo](#Todo)
-
-# Event Tracing
-
-Event tracing is a powerful way of profiling everything going on in your device. While this is a security risk, tracking down the cause of performance issues like stutters is trivial when tracing. The more that people trace the correct issues, the better the game becomes.
-
-## Windows Specific
-Valve recommends the player trace with Event Tracing for Windows (ETW). ETW-related apps suited for Deadlock are:
-- [PerfView](https://github.com/microsoft/perfview/releases); **the guide for using PerfView for Valve's games can be found [here](https://developer.valvesoftware.com/wiki/PerfView)**
-- [Windows Performance Analyzer](https://apps.microsoft.com/detail/9n0w1b2bxgnz)
-
-## Linux Specific
-Valve doesn't know which of the multiple Linux tracing tools is the best, so give one a try and see what works:
-- [Perf](https://perfwiki.github.io/main/)
-- [LTTng](https://lttng.org/)
-- [ftrace](https://www.kernel.org/doc/html/latest/trace/index.html)
-- [strace](https://strace.io/)
-- [Apitrace](https://apitrace.github.io/) (recommended for debugging DXVK)
-  
-Please download these from your package manager if you can!
 
 # Ingame-Adjustments
 ## gameinfo.gi Modifications
@@ -129,6 +111,23 @@ Various versions of proton could yield a marginal performance boost.
 - [Wine-tkg](https://github.com/Frogging-Family/wine-tkg-git)
 - [Glorious-Eggroll](https://github.com/GloriousEggroll/proton-ge-custom)
 - [CachyOS'](https://github.com/CachyOS/proton-cachyos)
+
+# Event Tracing
+
+Event tracing is a powerful way of profiling everything going on in your device. While this is a minor security risk, tracking down the cause of performance issues like stutters is trivial when tracing. Useful for finding what your pc's weakpoint is.
+
+## Windows Specific
+Valve recommends the player trace with Event Tracing for Windows (ETW). ETW-related apps suited for Deadlock are:
+- [PerfView](https://github.com/microsoft/perfview/releases); **the guide for using PerfView for Valve's games can be found [here](https://developer.valvesoftware.com/wiki/PerfView)**
+- [Windows Performance Analyzer](https://apps.microsoft.com/detail/9n0w1b2bxgnz)
+
+## Linux Specific
+Valve doesn't explictly recommend any tools for linux, although my personal recommendation is perf.
+- [Perf](https://perfwiki.github.io/main/)
+- [LTTng](https://lttng.org/)
+- [ftrace](https://www.kernel.org/doc/html/latest/trace/index.html)
+- [strace](https://strace.io/)
+- [Apitrace](https://apitrace.github.io/) (recommended for debugging DXVK)
 
 # Todo 
 - Verify that optiscaler can consistently force frame generation and destribute a config for optiscaler that does so
