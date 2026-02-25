@@ -1,4 +1,4 @@
-No Generative AI was used in the making of this
+No Generative AI was used in the making of this  
 To either request support or contribute findings to the project, our discord server can be found [here](https://discord.com/invite/AM7RRGBXet)
 ## IF YOU HAVE ANY QUESTIONS OR DESIRE TO MAKE A CONTRIBUTION, MY CONTACTS ARE AS FOLLOWS.
 
