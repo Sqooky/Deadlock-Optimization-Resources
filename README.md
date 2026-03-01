@@ -29,9 +29,6 @@ Haven't tested
 Maidehnless' config is very well documented and provides sensible defaults. I am the current maintainer of the github repository, and given I find him a nice individual I would recommend it.
 ## Launch Options
 
-- ``-preload`` I think this precaches vulkan shaders, but I am not sure
-- ``-softparticlesdefaultoff`` I believe that this makes particle effects for effects like smoke less demanding. It has yielded some improvements on the two people who have tested it.
-- ``+@panorama_min_comp_layer_cache_cost_TURNED_OFF 256`` Absolutely no idea what this does. If you have any idea please reach out. I believe it improves hud performance, although I am not sure.
 - ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1"
 - ``-high`` Pretty sure this tells windows to give it higher priority.
 
