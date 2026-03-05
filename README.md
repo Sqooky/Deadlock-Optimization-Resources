@@ -64,7 +64,7 @@ There is a linux port of the frame gen avalible [here.](https://github.com/Panca
 - ``ENABLE_LAYER_MESA_ANTI_LAG=1`` Experimental Mesa anti-lag layer
 - ``PROTON_FSR4_UPGRADE=1`` Makes newer GPUs use fsr4 in place of fsr3 (I think)
 - ``PROTON_FSR4_RDNA3_UPGRADE=1`` Makes older GPUs use FSR4 in place of FSR3
-- ``PROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. For me this causes jump to be spammed when holding space. Not sure if this is exclusive to me tho.
+- ``PROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. Seemed to make the game run smoother
 - ``PROTON_NO_WM_DECORATION=1`` Disables window decoration, can help with window snapping.
 - ``MANGOHUD=1`` Needs [Mangohud](https://github.com/flightlessmango/MangoHud), you already know what it is. Useful for checking performance stats.
 ### Cpu
@@ -82,6 +82,13 @@ Some desktop enviornments are more performance heavy than others. You can consid
 - [i3](https://i3wm.org/) It's like driving a brick at two hundred miles an hour.
 
 #### Kernel
+##### Ntsync Performance Module
+You can enable the Ntsync performance module which should help with frametimes by running
+```
+sudo mkdir -p /etc/modules.load.d/
+echo '"ntsync"' | sudo tee /etc/modules.load.d/ntsync.conf
+```
+##### Performance Kernels
 There are various performance oriented kernels
 - [CachyOS' Kernel.](https://github.com/CachyOS/linux-cachyos) 
 
