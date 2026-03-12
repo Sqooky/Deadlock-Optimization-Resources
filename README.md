@@ -24,9 +24,9 @@ Please contribute as I am not all knowing
 - [Hanturaya's Fps Config](https://gamebanana.com/mods/609804)
 
 Haven't tested
-- [Maidehnless' Optimizationlock Config](https://github.com/Sqooky/OptimizationLock)
+- [My Optimizationlock Config](https://github.com/Sqooky/OptimizationLock)
 
-Maidehnless' config is very well documented and provides sensible defaults. I am the current maintainer of the github repository, and given I find him a nice individual I would recommend it.
+My config is very well documented and tries to maintain some degree of visual quality
 ## Launch Options
 
 - ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1"
@@ -56,7 +56,13 @@ Lossless Scaling is a means of allowing external upscaling and frame generation.
 There is a linux port of the frame gen avalible [here.](https://github.com/PancakeTAS/lsfg-vk)
 
 ## Windows Specific
-- Use the latest driver if you can; there are potential fixes for your issues in those, although I understand that there are also risks.
+### Debloat Windows
+You generally should ensure that your windows install is debloated. 
+- [Winutil](https://github.com/ChrisTitusTech/winutil)  
+Well documented debloater tool. Generally the most advised.
+
+### Process Lasso
+Process Lasso Allows you to increase the priority of Deadlock in regards to windows CPU allocation. It can be downloaded [here](https://bitsum.com)
 
 ## Linux Specific
 ### Enviornment Variable Settings
