@@ -82,7 +82,6 @@ You should utilize a tool such as [cpupower](https://linux.die.net/man/1/cpupowe
 #### AMD GPUs
 Make sure your MESA drivers are up to date. You can use software such as [LACT](https://github.com/ilya-zlobintsev/LACT) or [CoreCTRL](https://gitlab.com/corectrl/corectrl) to make sure your GPU's performance governor is set properly
 #### Nvidia GPUs
-Lol, Lmao
 - Make sure you're using an x11 based window manager/desktop enviornment. As far as I'm aware nvidia gpus still perform marginally worse under wayland
 ### OS
 #### Desktop Enviornment
