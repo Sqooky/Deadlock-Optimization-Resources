@@ -31,6 +31,7 @@ My config is very well documented and tries to maintain some degree of visual qu
 These are the only launch options I am aware of that actually do anything of substance
 
 - ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1"
+It is worth mentioning that this shouldn't be needed.
 - ``-high`` Pretty sure this tells windows to give it higher priority.
 
 ### Rendering Backend
