@@ -28,6 +28,7 @@ Haven't tested
 
 My config is very well documented and tries to maintain some degree of visual quality
 ## Launch Options
+These are the only launch options I am aware of that actually do anything of substance
 
 - ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1"
 - ``-high`` Pretty sure this tells windows to give it higher priority.
@@ -35,10 +36,10 @@ My config is very well documented and tries to maintain some degree of visual qu
 ### Rendering Backend
 - DirectX11
 
-Launch command is ``-dx11``. It seems to provide generally better fps stability but only supports fsr2.
+Launch command is ``-dx11``. As time has passed vulkan seems to run better for myself and others. Only supports fsr2.
 - Vulkan
 
-Launch command is ``-vulkan``. Seems to be marginally slower but supports fsr3; this will likely be the only renderer in the future.
+Launch command is ``-vulkan``. Runs better than DX11 from my testing. Supports fsr3; this will likely be the only renderer in the future.
 
 - [DXVK](https://github.com/doitsujin/dxvk)
 
@@ -74,7 +75,7 @@ Process Lasso Allows you to increase the priority of Deadlock in regards to wind
 - ``MANGOHUD=1`` Needs [Mangohud](https://github.com/flightlessmango/MangoHud), you already know what it is. Useful for checking performance stats.
 
 So for example using all of these would look something like
-```DXVK_ASYNC=1 ENABLE_LAYER_MESA_ANTI_LAG=1 PROTON_FSR4_RDNA3_UPGRADE=1 PROTON_ENABLE_WAYLAND=1 MANGOHUD=1 gamemoderun %command% -dx11```
+```ENABLE_LAYER_MESA_ANTI_LAG=1 PROTON_FSR4_RDNA3_UPGRADE=1 PROTON_ENABLE_WAYLAND=1 MANGOHUD=1 gamemoderun %command% -vulkan```
 ### Cpu
 You should utilize a tool such as [cpupower](https://linux.die.net/man/1/cpupower) or [gamemoderun](https://github.com/FeralInteractive/gamemode) to ensure your cpu is set to performance mode.
 ### Gpu
