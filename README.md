@@ -94,8 +94,8 @@ Some desktop enviornments are more performance heavy than others. You can consid
 ##### Ntsync Performance Module
 You can enable the Ntsync performance module which should help with frametimes by running
 ```
-sudo mkdir -p /etc/modules.load.d/
-echo '"ntsync"' | sudo tee /etc/modules.load.d/ntsync.conf
+sudo mkdir -p /etc/modules-load.d/
+echo '"ntsync"' | sudo tee /etc/modules-load.d/ntsync.conf
 ```
 ##### Performance Kernels
 There are various performance oriented kernels
