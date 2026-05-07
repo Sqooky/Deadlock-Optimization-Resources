@@ -21,26 +21,23 @@ Please contribute as I am not all knowing
 
 # Ingame-Adjustments
 ## gameinfo.gi Modifications
-- [Hanturaya's Fps Config](https://gamebanana.com/mods/609804)
+- [My Performance Config Repo](https://github.com/Sqooky/OptimizationLock)  
 
-Haven't tested
-- [My Optimizationlock Config](https://github.com/Sqooky/OptimizationLock)
+As far as I am aware boot's and Kaizuchanru's configs provide the best frametime. My config provides optimizations but attempts to maintain the visual fidelity of normal deadlock
 
-My config is very well documented and tries to maintain some degree of visual quality
-## Launch Options
+## Launch Options 
 These are the only launch options I am aware of that actually do anything of substance
 
-- ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1"
-It is worth mentioning that this shouldn't be needed for the majority of systems as the engine handles threading itself.
-- ``-high`` Pretty sure this tells windows to give it higher priority.
+- ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1". This should only be needed if your computer is relatively low power as it might mess up threading on systems with better cpus
+- ``-high`` Pretty sure this tells the os to give it higher priority. This also shouldn't be needed unless the system is poor.
 
 ### Rendering Backend
 - DirectX11
 
-Launch command is ``-dx11``. As time has passed vulkan seems to run better for myself and others. Only supports fsr2.
+Launch command is ``-dx11``. As time has passed vulkan seems to run better for myself and others. Only supports FSR2. FSR3 support for dx11 is intended and should come relatively soon.
 - Vulkan
 
-Launch command is ``-vulkan``. Runs better than DX11 from my testing. Supports fsr3; this will likely be the only renderer in the future.
+Launch command is ``-vulkan``. Runs better than DX11 from my testing. Supports FSR3
 
 - [DXVK](https://github.com/doitsujin/dxvk)
 
@@ -49,7 +46,7 @@ DXVK seems to increase frame stability for older gpus and with newer AMD GPUs im
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
 
-A means of modifying upscaling in deadlock. It allows you to force fsr4 and various other cool tweaks.
+A means of modifying upscaling in deadlock. It allows you to force FSR4 and various other cool tweaks.
 It potentially allows for frame gen to be forced on nvidia gpus, but under linux it only presents the option when running under vulkan, and the debug menu for fg doesn't work. This leads me to believe that it isn't possible but your mileage may vary
 
 - [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/)
@@ -58,6 +55,9 @@ Lossless Scaling is a means of allowing external upscaling and frame generation.
 There is a linux port of the frame gen avalible [here.](https://github.com/PancakeTAS/lsfg-vk)
 
 ## Windows Specific
+### Use a Custom ISO
+A custom ISO is a modified windows install without any bloat at a base level
+I've only heard people talk about tiny11, seems good.
 ### Debloat Windows
 You generally should ensure that your windows install is debloated. 
 - [Winutil](https://github.com/ChrisTitusTech/winutil)  
@@ -69,7 +69,7 @@ Process Lasso Allows you to increase the priority of Deadlock in regards to wind
 ## Linux Specific
 ### Enviornment Variable Settings
 - ``ENABLE_LAYER_MESA_ANTI_LAG=1`` Experimental Mesa anti-lag layer
-- ``PROTON_FSR4_UPGRADE=1`` Makes older GPUs use fsr4 in place of fsr3 (I think)
+- ``PROTON_FSR4_UPGRADE=1`` Makes older GPUs use FSR4 in place of FSR3 (I think)
 - ``PROTON_FSR4_RDNA3_UPGRADE=1`` Makes newer GPUs use FSR4 in place of FSR3
 - ``PROTON_ENABLE_WAYLAND=1`` Forces proton to run native in wayland. Seemed to make the game run smoother
 - ``PROTON_NO_WM_DECORATION=1`` Disables window decoration, can help with window snapping on select compositors, but usually won't be needed.
@@ -117,8 +117,7 @@ Seems to be a bit slow on development but was more popular in the past.
 
 - [TKG](https://github.com/Frogging-Family/linux-tkg)
 
-Seems to be pretty cool but I haven't monkeyed with it. Has very active development as well as customization options.
-
+TKG's kernel needs to be manually compiled to select their performance options but it runs very well and is updated regularly.
 ### Proton
 Various versions of proton could yield a marginal performance boost.
 - [Wine-tkg](https://github.com/Frogging-Family/wine-tkg-git)
@@ -144,4 +143,3 @@ Valve doesn't explictly recommend any tools for linux, although my personal reco
 
 # Todo 
 - Verify that optiscaler can consistently force frame generation and destribute a config for optiscaler that does so
-- Establish a standardized benchmark and test the configs
