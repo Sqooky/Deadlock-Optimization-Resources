@@ -31,17 +31,23 @@ These are the only launch options I am aware of that actually do anything of sub
 - ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1". This should only be needed if your computer is relatively low power as it might mess up threading on systems with better cpus
 - ``-high`` Pretty sure this tells the os to give it higher priority. This also shouldn't be needed unless the system is poor.
 
+
 ### Rendering Backend
-- DirectX11
-
+- DirectX11  
 Launch command is ``-dx11``. As time has passed vulkan seems to run better for myself and others. Only supports FSR2. FSR3 support for dx11 is intended and should come relatively soon.
-- Vulkan
 
+- Vulkan  
 Launch command is ``-vulkan``. Runs better than DX11 from my testing. Supports FSR3
 
-- [DXVK](https://github.com/doitsujin/dxvk)
-
+- [DXVK](https://github.com/doitsujin/dxvk)  
 DXVK seems to increase frame stability for older gpus and with newer AMD GPUs improves framerates. It might require cacheing of shaders again. It is automatically used when running in DX11 through Proton on Linux, but must be installed manually on Windows.
+
+### These Don't do Anything (to the Extent of my Knowledge)
+- ``-noassert``  
+This should dispell the purple warnings in console when you do something wrong but it doesn't seem to.
+- ``+@panorama_min_comp_layer_cache_cost_TURNED_OFF 256``  
+A + indicates this is a command we're executing in the dev console, but this command doesn't exist.
+
 # External-Adjustments
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
@@ -87,8 +93,13 @@ Make sure your MESA drivers are up to date. You can use software such as [LACT](
 ### OS
 #### Desktop Enviornment
 Some desktop enviornments are more performance heavy than others. You can consider using a standalone wm if you're desperate for performance. The ones I would recommend from personal experience are as follows:
-- [MangoWC](https://github.com/DreamMaoMao/mangowc) Runs under wayland, pretty versatile and well optimized
-- [i3](https://i3wm.org/) It's like driving a brick at two hundred miles an hour.
+- [MangoWC](https://github.com/DreamMaoMao/mangowc)  
+Runs under wayland, pretty versatile and well optimized
+- [i3](https://i3wm.org/)  
+It's like driving a brick at two hundred miles an hour.
+- [fvwm3](https://github.com/fvwmorg/fvwm3)  
+While it is incredibly performant and I absolutely adore fvwm3, it is incredibly barebones and old. 
+
 
 #### Kernel
 ##### Ntsync Performance Module
@@ -100,24 +111,20 @@ echo '"ntsync"' | sudo tee /etc/modules.load.d/ntsync.conf
 ##### Performance Kernels
 There are various performance oriented kernels
 - [CachyOS' Kernel.](https://github.com/CachyOS/linux-cachyos) 
-
 Most notably using the BORE CPU scheduler with various other patches targeting performance.
 
 - [Liquorix](https://liquorix.net)
-
 I don't have much experience with Liquorix so I can't offer much insight but it seems to be actively developed
 
 - [Linux-Tachyon](https://git.staropensource.de/StarOpenSource/Linux-Tachyon)
-
 The isolated kernel from Intel's ClearLinux, it should provide a performance boost on Intel machines but I don't have the means to test it on an AMD CPU. Also obligatory Death Grips reference.
 
 - [Xanmod](https://xanmod.org)
-
 Seems to be a bit slow on development but was more popular in the past.
 
 - [TKG](https://github.com/Frogging-Family/linux-tkg)
-
 TKG's kernel needs to be manually compiled to select their performance options but it runs very well and is updated regularly.
+
 ### Proton
 Various versions of proton could yield a marginal performance boost.
 - [Wine-tkg](https://github.com/Frogging-Family/wine-tkg-git)
@@ -141,5 +148,3 @@ Valve doesn't explictly recommend any tools for linux, although my personal reco
 - [strace](https://strace.io/)
 - [Apitrace](https://apitrace.github.io/) (recommended for debugging DXVK)
 
-# Todo 
-- Verify that optiscaler can consistently force frame generation and destribute a config for optiscaler that does so
