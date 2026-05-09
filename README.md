@@ -8,7 +8,7 @@ Steam:      https://steamcommunity.com/id/happylilsqooky/
 
 
 # Deadlock-Optimization-Resources
-This Repository seeks to act similar to an [awesome-list](https://github.com/sindresorhus/awesome) where it is a list of resource and documentation on how to utilize and apply them
+This Repository seeks to act similar to an [awesome-list](https://github.com/sindresorhus/awesome) where it is a list of resource and documentation on how to utilize and apply them.  
 Please contribute as I am not all knowing
 --------------------------------------
 
@@ -50,20 +50,20 @@ This should dispell the purple warnings in console when something in the code br
 The + prefix indicates this is a command we're executing in the dev console, but this command doesn't exist. I don't know where it comes from.
 
 ### Launch Options I Could Find From Poking Around in the Code
-``-allow_third_party_software``  
+- ``-allow_third_party_software``  
 Lets things hook into the application or at least run custom code I believe? not fully sure.
-``-insecure``  
+- ``-insecure``  
 Disables the anti-cheat. Most useful for mods 
-``-steampath ``  
+- ``-steampath ``  
 Use a custom steam path I think?
-``-tools``  
+- ``-tools``  
 Launches the dev tools! Deadlock doesn't ship with dev tools tho...
-``-trusted``  
+- ``-trusted``  
 Not sure what this does
 #### Do not play with these. They could cause issues. I don't know what they do.
-``-debugbreak``  
-``-nocrashdialog``  
-``-noiocp``  
+- ``-debugbreak``  
+- ``-nocrashdialog``  
+- ``-noiocp``  
 
 #### List of Every Launch Flag
 <details>
