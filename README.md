@@ -294,7 +294,6 @@ Various versions of proton could yield a marginal performance boost.
 - [CachyOS'](https://github.com/CachyOS/proton-cachyos)
 
 # Event Tracing
-
 Event tracing is a powerful way of profiling everything going on in your device. While this is a minor security risk, tracking down the cause of performance issues like stutters is trivial when tracing. Useful for finding what your pc's weakpoint is.
 
 ## Windows Specific
