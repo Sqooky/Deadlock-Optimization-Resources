@@ -22,13 +22,14 @@ Please contribute as I am not all knowing
 # Ingame-Adjustments
 ## gameinfo.gi Modifications
 - [My Performance Config Repo](https://github.com/Sqooky/OptimizationLock)  
-
 As far as I am aware boot's and Kaizuchanru's configs provide the best frametime. My config provides optimizations but attempts to maintain the visual fidelity of normal deadlock
 
 ## Launch Options 
 These are the only launch options I am aware of that actually do anything of substance
 
-- ``-threads x`` How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1". This should only be needed if your computer is relatively low power as it might mess up threading on systems with better cpus
+- ``-threads x``  
+How many threads to use, replace x with whatever you want, the [Valve Wiki](https://developer.valvesoftware.com/wiki/Command_line_options) says "your cores +1". This should only be needed if your computer is relatively low power as it might mess up threading on systems with better cpus
+
 - ``-high`` Pretty sure this tells the os to give it higher priority. This also shouldn't be needed unless the system is poor.
 
 
@@ -44,9 +45,25 @@ DXVK seems to increase frame stability for older gpus and with newer AMD GPUs im
 
 ### These Don't do Anything (to the Extent of my Knowledge)
 - ``-noassert``  
-This should dispell the purple warnings in console when you do something wrong but it doesn't seem to.
+This should dispell the purple warnings in console when something in the code breaks but it seems to send them anyway.
 - ``+@panorama_min_comp_layer_cache_cost_TURNED_OFF 256``  
-A + indicates this is a command we're executing in the dev console, but this command doesn't exist.
+The + prefix indicates this is a command we're executing in the dev console, but this command doesn't exist. I don't know where it comes from.
+
+### Launch Options I Could Find From Poking Around in the Code
+``-allow_third_party_software``  
+Lets things hook into the application or at least run custom code I believe? not fully sure.
+``-insecure``  
+Disables the anti-cheat. Most useful for mods 
+``-steampath ``  
+Use a custom steam path I think?
+``-tools``  
+Launches the dev tools! Deadlock doesn't ship with dev tools tho...
+``-trusted``  
+Not sure what this does
+#### Do not play with these. They could cause issues. I don't know what they do.
+``-debugbreak``  
+``-nocrashdialog``  
+``-noiocp``  
 
 # External-Adjustments
 ## Upscaling Tomfoolery
