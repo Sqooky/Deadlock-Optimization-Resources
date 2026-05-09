@@ -201,6 +201,7 @@ Not sure what this does
 -world
 -worldwide
 </details>
+
 # External-Adjustments
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
