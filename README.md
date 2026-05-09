@@ -42,6 +42,14 @@ Launch command is ``-vulkan``. Runs better than DX11 from my testing. Supports F
 
 - [DXVK](https://github.com/doitsujin/dxvk)  
 DXVK seems to increase frame stability for older gpus and with newer AMD GPUs improves framerates. It might require cacheing of shaders again. It is automatically used when running in DX11 through Proton on Linux, but must be installed manually on Windows.
+<details>
+  <summary>Guide to installing DXVK on windows</summary>
+to install dxvk you need to 
+1. Go to this link, https://github.com/doitsujin/dxvk/releases
+2. Download dxvk-2.7.1.tar.gz 
+3. Use 7zip to unzip dxvk-2.7.1.tar.gz 
+4. Then put the files d3d11.dll and dxgi.dll in the directory steamapps/common/Deadlock/game/bin/win64
+</details>
 
 ### These Don't do Anything (to the Extent of my Knowledge)
 - ``-noassert``  
