@@ -65,6 +65,141 @@ Not sure what this does
 ``-nocrashdialog``  
 ``-noiocp``  
 
+#### List of Every Launch Flag
+<details>
+  <summary>***The majority of these will do nothing or not reach the dll they come from. This is just more for my own personal fun.***
+
+--disallow-code-generation-from-strings
+--jitless
+--stack-size=%d
+-0000
+-5?KYks
+-5dI
+-5x5
+-64OS
+-9D\t/9a
+-?Vb,?H$+?Z
+-AvRJ
+-BH>t
+-BH>t
+-D AMD_MEDIA_OPS 
+-D65K
+-DBF
+-Infinity
+-JCN
+-NE2
+-Normal
+-Q"Ej
+-RestartSelfFromAlternateLocation_RelaunchTime
+-Stop: 
+-Subnormal
+-UUSW
+-U`5K
+-VXW
+-Zero
+-\6G5
+-abandoned
+-aggs
+-all
+-applaunch %d
+-assert
+-assert_content
+-attachtodebugger
+-auto -title "auto_bug %04d-%02d-%02d %02d:%02d:%02d"
+-breakimmediately
+-bugvoice
+-bugvoice 
+-cached
+-camdistance 
+-cammousemove 
+-chatwheel 
+-chatwheel_pingwheel 
+-citadel_swtich_player_cam 
+-cl-fast-relaxed-math
+-cl-mad-enable 
+-classes
+-cloth
+-codemsg "
+-component
+-con_logfile
+-consoleapp
+-consolelog
+-diff
+-dx11
+-dxlevel
+-dxlevel %s: %s
+-emaildumps
+-empty
+-enable_qaccessible
+-error
+-extended
+-herochatwheel 
+-in_ability_ping 
+-inf
+-inf
+-instance
+-l34
+-l34
+-loose
+-mB:t
+-mB:t
+-mem
+-mem
+-memory-
+-more
+-multiple
+-multiple_tools_instances
+-narrow
+-no model-
+-noautoargs
+-nofocus
+-noscreenshot
+-novconsole
+-perfectworld
+-person
+-product
+-psrs
+-report
+-retail
+-retire
+-rollback
+-rtest1
+-rtx
+-s2-mix-blend-mode
+-s2-mix-blend-mode
+-sSO\
+-save
+-sdk
+-sdk
+-shaderdebugging
+-shadowTargetSize
+-short
+-show_ability_upgrade_radial 
+-show_none
+-show_used_combos
+-snap
+-snapshots
+-stream
+-stream end
+-testmode
+-testmode
+-testscript
+-testscript_inline
+-ticks
+-toggle
+-touch
+-vulkan
+-vulkan_disable_validation_core_checks
+-vulkan_disable_validation_object_lifetimes
+-vulkan_disable_validation_shaders
+-vulkan_disable_validation_unique_handles
+-vulkan_enable_gpu_validation
+-vulkan_enable_sync_validation
+-vulkan_enable_thread_safety_validation
+-world
+-worldwide
+
+</summary>
 # External-Adjustments
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
