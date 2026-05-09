@@ -67,7 +67,9 @@ Not sure what this does
 
 #### List of Every Launch Flag
 <details>
-  <summary>***The majority of these will do nothing or not reach the dll they come from. This is just more for my own personal fun.***
+  <summary>The majority of these will do nothing or not reach the dll they come from. This is just more for my own personal posterity.
+</summary>
+
 
 --disallow-code-generation-from-strings
 --jitless
@@ -198,8 +200,7 @@ Not sure what this does
 -vulkan_enable_thread_safety_validation
 -world
 -worldwide
-
-</summary>
+</details>
 # External-Adjustments
 ## Upscaling Tomfoolery
 - [Optiscaler](https://github.com/OptiScaler/OptiScaler)
