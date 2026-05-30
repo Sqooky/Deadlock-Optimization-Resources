@@ -35,7 +35,7 @@ How many threads to use, replace x with whatever you want, the [Valve Wiki](http
 
 ### Rendering Backend
 - DirectX11  
-Launch command is ``-dx11``. As time has passed vulkan seems to run better for myself and others. Only supports FSR2. FSR3 support for dx11 is intended and should come relatively soon.
+Launch command is ``-dx11``. As time has passed vulkan seems to run better for myself and others. Only supports FSR2. 
 
 - Vulkan  
 Launch command is ``-vulkan``. Runs better than DX11 from my testing. Supports FSR3
